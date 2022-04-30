@@ -16,19 +16,13 @@ for (let i = 6; i <= 128; i++) {
     
     `; 
     
-    
 }
 
 function generatePassword() {
 
-    
-
     let seleccion = document.getElementById('seleccion'); 
 
     let opcionSeleccionada = seleccion.options[seleccion.selectedIndex].value; 
-    console.log(opcionSeleccionada); 
-
-   
 
     var password = []; 
 
