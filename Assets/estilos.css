@@ -1,0 +1,102 @@
+*{ 
+    box-sizing: border-box;
+}
+
+body { 
+
+    background-color: rgb(14, 14, 14);
+}
+
+.border-color2{
+    
+    margin-top: 20px;
+    margin-right: 10px;
+    float: right;
+    /* border: 2px solid red; */
+}
+
+#jumbotron{ 
+
+    margin-top: 100px;
+    border-radius: 10px;
+    margin-bottom: 100px;
+
+}
+
+.form-control{
+    margin-top: 40px;
+}
+
+#btnRefresh{ 
+    position: relative;
+  display: inline-block;
+  border-bottom: 1px dotted black;
+}
+
+#btnRefresh .tooltiptext {
+    visibility: hidden;
+    width: 120px;
+    background-color: rgba(0, 0, 0, 0.381);
+    color: #fff;
+    margin-top: 10px;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px 0;
+    
+    /* Position the tooltip */
+    position: absolute;
+    z-index: 1;
+    top: 100%;
+    left: 50%;
+    margin-left: -60px;
+  }
+  
+  #btnRefresh:hover .tooltiptext {
+    visibility: visible;
+  }
+
+#btnCopy{ 
+    position: relative;
+  display: inline-block;
+  border-bottom: 1px dotted black;
+}
+
+#btnCopy .tooltiptext {
+    visibility: hidden;
+    width: 120px;
+    background-color: rgba(0, 0, 0, 0.381);
+    color: #fff;
+    margin-top: 10px;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px 0;
+    
+    /* Position the tooltip */
+    position: absolute;
+    z-index: 1;
+    top: 100%;
+    left: 50%;
+    margin-left: -60px;
+  }
+  
+  #btnCopy:hover .tooltiptext {
+    visibility: visible;
+  }
+
+
+.titulo{
+  color: rgb(20, 20, 24);
+  text-align: center;
+  font-size: 40px;
+  font-weight: bold;
+
+}
+
+footer{
+  padding-top: 80px;
+}
+
+#paragraphFontStyle{ 
+  font-size: 20px;
+  font-weight: bold;
+}
